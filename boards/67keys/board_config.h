@@ -4,7 +4,7 @@
 #define CRYSTALLESS    1
 
 #define VENDOR_NAME "DNBDMR"
-#define PRODUCT_NAME "67 Keyboard"
+#define PRODUCT_NAME "67 Keyboard Boot"
 #define VOLUME_LABEL "67KEYBOOT"
 #define INDEX_URL "none"
 #define BOARD_ID "SAMD21E18A-67keys-v0"
