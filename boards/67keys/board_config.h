@@ -4,9 +4,9 @@
 #define CRYSTALLESS    1
 
 #define VENDOR_NAME "DNBDMR"
-#define PRODUCT_NAME "67 Keyboard with Trackpoint"
-#define VOLUME_LABEL "KEYBOOT"
-#define INDEX_URL ""
+#define PRODUCT_NAME "67 Keyboard"
+#define VOLUME_LABEL "67KEYBOOT"
+#define INDEX_URL "none"
 #define BOARD_ID "SAMD21E18A-67keys-v0"
 
 #define USB_VID 0x239A
