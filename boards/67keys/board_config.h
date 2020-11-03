@@ -16,7 +16,7 @@
 //#define LED_TX_PIN PIN_PA27
 //#define LED_RX_PIN PIN_PB03
 
-#define BOARD_RGBLED_CLOCK_PIN            PIN_PA01
-#define BOARD_RGBLED_DATA_PIN             PIN_PA00
+//#define BOARD_RGBLED_CLOCK_PIN            PIN_PA01
+//#define BOARD_RGBLED_DATA_PIN             PIN_PA00
 
 #endif
