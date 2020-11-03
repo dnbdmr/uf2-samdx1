@@ -189,6 +189,21 @@ void led_init() {
     // turn display backlight
     screen_early_init();
 #endif
+
+#if defined(LED_TX_PIN)
+    PINOP(LED_TX_PIN, DIRSET);
+    LED_TX_OFF();
+#endif
+
+#if defined(LED_RX_PIN)
+    PINOP(LED_RX_PIN, DIRSET);
+    LED_RX_OFF();
+#endif
+
+#if defined(BOARD_NEOPIXEL_POWERPIN)
+    PINOP(BOARD_NEOPIXEL_POWERPIN, DIRSET);
+    PINOP(BOARD_NEOPIXEL_POWERPIN, OUTSET);
+#endif
 }
 
 #if defined(BOARD_RGBLED_CLOCK_PIN)
